@@ -240,8 +240,6 @@ console.log(employees);
 type PaymentMethod = "CreditCard" | "UPI" | "COD";
 type OrderStatus = "Pending" | "Delivered" | "Cancelled";
 
-
-
 type Order = {
   id: number;
   customerName: string;
