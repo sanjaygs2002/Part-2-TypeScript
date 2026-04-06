@@ -141,10 +141,10 @@ type Record ={
    name: string,
    age:number
 }
+const person: Record = { name: "Alice", age: 25 };
 function getRecord(obj: Record, key: keyof Record){
   return obj[key];
 }
-const person: Record = { name: "Alice", age: 25 };
 console.log(getRecord(person,"name"));
 console.log(getRecord(person,"age"));
 
