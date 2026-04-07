@@ -47,10 +47,10 @@ check(admin)
 
 // Generic's
 
-function printValues<T,U>(a:T,b:T,c:T):T[]{
+function printValues<T>(a:T,b:T,c:T):T[]{
     return [a,b,c]
 }
-let values= printValues<number,string>(1,2,3);
+let values= printValues<number>(1,2,3);
 console.log(values);
 
 // Array
